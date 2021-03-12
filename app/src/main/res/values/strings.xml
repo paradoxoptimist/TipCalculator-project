@@ -2,4 +2,11 @@
     <string name="app_name">TipCalculator</string>
     <string name="inputTotal">Input Total</string>
     <string name="inputNumOfPeople">Input Total Number of People</string>
+    <string name="percent5">5%</string>
+    <string name="percent10">10%</string>
+    <string name="percent15">15%</string>
+    <string name="percent20">20%</string>
+    <string name="percentCustom">Enter a custom tip percent</string>
+    <string name="calculate">Calculate</string>
+    <string name="reset">Reset</string>
 </resources>
