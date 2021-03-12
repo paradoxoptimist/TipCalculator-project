@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">TipCalculator</string>
+    <string name="inputTotal">Input Total</string>
+    <string name="inputNumOfPeople">Input Total Number of People</string>
 </resources>

@@ -7,6 +7,7 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/total"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
@@ -14,5 +15,71 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/inputTotal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="numberDecimal"
+        android:text="@string/inputTotal"/>
+
+    <TextView
+        android:id="@+id/numOfPeople"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/inputNumOfPeople"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="number"
+        android:text="@string/inputNumOfPeople"/>
+
+    <TextView
+        android:id="@+id/tipAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton android:id="@+id/5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/5"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton android:id="@+id/10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/10"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton android:id="@+id/15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/15"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton android:id="@+id/20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/20"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton android:id="@+id/custom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/custom"
+            android:onClick="onRadioButtonClicked"/>
+    </RadioGroup>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
